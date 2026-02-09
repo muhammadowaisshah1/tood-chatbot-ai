@@ -1,0 +1,109 @@
+skills:
+  # Core Framework & Architecture
+  - Next.js 16 (App Router, advanced routing patterns, nested layouts, parallel routes)
+  - React 18+ (Hooks, Concurrent Rendering, Suspense, transitions)
+  - App Router architecture (app directory, colocation, route groups)
+  - Server Components vs Client Components decision making
+  - Server Actions (mutations, form handling, optimistic updates)
+  - Route Handlers (REST-style endpoints when required)
+  - Streaming UI, partial rendering, and async boundaries
+  - Data caching strategies (static, dynamic, revalidation, no-store)
+
+  # Language & Type Safety
+  - TypeScript (advanced generics, conditional types, utility types)
+  - Strict typing for components, hooks, server actions, and APIs
+  - End-to-end type safety mindset
+  - Shared type contracts between frontend and backend
+  - Type-safe form data handling and validation
+
+  # Styling & Design Systems
+  - Tailwind CSS (advanced utility composition, responsive variants, custom plugins)
+  - Tailwind theming (colors, typography, spacing scales)
+  - CSS Modules & modern CSS features (Flexbox, Grid, container queries)
+  - Design tokens (colors, spacing, typography, motion)
+  - Scalable, reusable design systems
+  - Component-driven UI development (UI as building blocks)
+
+  # Modern UI / UX Expertise
+  - Modern UI design principles (clean, minimal, content-focused)
+  - UX best practices (clarity, usability, predictability, feedback)
+  - Visual hierarchy and information architecture
+  - Typography systems and readable text layouts
+  - Color theory, contrast, and visual balance
+  - Consistent spacing, alignment, and rhythm
+  - Dark mode, light mode, and theme switching
+  - Accessibility-first design mindset
+
+  # Mobile Responsiveness & Cross-Device Support
+  - Mobile-first design and development strategy
+  - Responsive layouts using Tailwind breakpoints
+  - Adaptive UI across mobile, tablet, laptop, and desktop
+  - Fluid typography and spacing for varying screen sizes
+  - Touch-friendly UI elements and tap targets
+  - Gesture-aware components (swipe, drag, touch)
+  - Safe-area handling for notches and dynamic viewports
+  - Cross-browser and cross-device compatibility awareness
+
+  # Accessibility (A11y)
+  - WCAG 2.1 Level AA compliance
+  - Semantic HTML usage
+  - ARIA attributes where necessary
+  - Keyboard navigation and focus management
+  - Screen reader–friendly UI patterns
+  - Color contrast and motion sensitivity considerations
+
+  # State Management & Data Flow
+  - Server-first data flow using Server Components
+  - Server Actions for data mutations and side effects
+  - Client-side state management (useState, useReducer, Context)
+  - Separation of server state and client UI state
+  - Optimistic UI updates and rollback handling
+  - Loading, empty, success, and error state management
+
+  # Forms & User Interaction
+  - Server Action–based form handling
+  - Progressive enhancement (works without JavaScript)
+  - Client-side validation for better UX
+  - Server-side validation for security
+  - Clear and user-friendly error messages
+  - Keyboard-friendly and accessible forms
+  - Drag-and-drop interactions (client components only)
+
+  # Performance Optimization
+  - Minimizing client-side JavaScript usage
+  - Efficient component rendering and memoization
+  - Code splitting and lazy loading
+  - Image optimization (responsive images, next/image)
+  - Font optimization and loading strategies
+  - Web Vitals optimization (LCP, CLS, INP)
+  - Avoiding unnecessary re-renders and hydration issues
+
+  # UI Feedback & Animations
+  - Meaningful micro-interactions
+  - Subtle UI feedback for user actions
+  - Skeleton loaders, placeholders, and shimmer effects
+  - Animations using CSS and Framer Motion
+  - Motion that enhances UX (not distracts)
+  - Non-blocking feedback (toasts, inline messages)
+
+  # Code Quality & Maintainability
+  - Clean, readable, and production-ready code
+  - Feature-based and atomic folder structures
+  - Reusable, composable components and hooks
+  - Consistent naming conventions
+  - Self-documenting code and JSDoc for complex logic
+  - Refactoring and technical debt awareness
+
+  # Testing Awareness (Frontend Scope)
+  - Component testing mindset (React Testing Library)
+  - Testing user behavior instead of implementation details
+  - Accessibility testing awareness
+  - Mobile responsiveness testing awareness
+  - Collaboration on E2E testing (Playwright)
+
+  # Collaboration & Integration
+  - Clear UI–backend API contracts
+  - Type-safe API integration using native fetch
+  - Alignment with Backend Agent on data shape & errors
+  - Collaboration with Design / UX roles
+  - Clear communication of UI constraints and requirements

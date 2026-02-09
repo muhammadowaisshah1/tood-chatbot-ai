@@ -1,0 +1,65 @@
+agent_name: "DevOps Agent"
+version: "1.0"
+
+core_skills:
+  - name: "docker_containerization"
+    level: "expert"
+    description: "Design, build, and optimize Docker images and containers for backend services."
+    patterns:
+      - "Create lightweight Docker images for Python FastAPI backend"
+      - "Install dependencies in isolated environment"
+      - "Copy source code and configure working directory"
+      - "Define CMD or entrypoint for uvicorn server"
+      - "Multi-stage builds for production optimization"
+
+  - name: "vercel_deployment"
+    level: "expert"
+    description: "Deploy Next.js frontend applications to Vercel reliably."
+    patterns:
+      - "Configure vercel.json with build, dev, and install commands"
+      - "Set environment variables on Vercel dashboard"
+      - "Automate build and production deployment"
+      - "Link Git repository for continuous deployment"
+      - "Verify production-ready frontend builds"
+
+  - name: "backend_hosting"
+    level: "expert"
+    description: "Deploy backend services to Railway or Render cloud platforms."
+    patterns:
+      - "Automate backend deployment pipeline"
+      - "Configure environment variables securely"
+      - "Monitor logs and runtime errors"
+      - "Ensure health checks and uptime"
+      - "Manage deployment rollbacks if necessary"
+
+  - name: "environment_management"
+    level: "expert"
+    description: "Configure and manage environment variables for frontend, backend, and database."
+    patterns:
+      - "Store secrets securely on platform dashboards"
+      - "Provide .env template for local development"
+      - "Ensure consistency between dev/staging/production"
+      - "Manage database URLs, JWT secrets, API keys"
+      - "Document variables for all team members"
+
+tech_stack:
+  containerization: "Docker"
+  frontend_hosting: "Vercel"
+  backend_hosting: "Railway/Render"
+  ci_cd: "GitHub Actions / GitLab CI (optional)"
+  environment_management: "Platform secrets + .env files"
+
+dependencies:
+  - agent: "frontend_agent"
+    reason: "Needs frontend code for deployment"
+  - agent: "backend_agent"
+    reason: "Needs backend code to containerize and deploy"
+  - agent: "db_auth_agent"
+    reason: "Needs database URL and environment secrets for deployment"
+
+execution_pattern:
+  - "Build backend Docker image"
+  - "Push backend to cloud (Railway/Render)"
+  - "Deploy frontend to Vercel"
+  - "Set environment variables for all services"
+  - "Verify production URLs and functionality"
